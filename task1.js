@@ -31,6 +31,7 @@ if (amount >= 100 && amount <= 100000) {
         let pre = 200
         obj[preferred] = 200
         notesCount(200)
+        // exception case for note 1 if there in any remaining balance 
         if (amount <= 4 && amount > 0) {
             let bal = 5 - amount
             obj[1] = pre - bal
